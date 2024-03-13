@@ -16,5 +16,5 @@ func Max(x, y float64) float64 {
 }
 
 func Yn(n int, x float64) float64 {
-	math.Yn(n, x)
+	return math.Yn(n, x)
 }
